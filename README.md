@@ -124,5 +124,5 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 Ad Soyad - [@twitterhandle](https://twitter.com/twitterhandle) - email@example.com
 
-Proje Linki: [https://github.com/kullaniciadi/github-repo-searcher](https://github.com/kullaniciadi/github-repo-searcher)
+Proje Linki: [https://github.com/palamut62/github-repo-searcher](https://github.com/palamut62/github-repo-searcher)
 
