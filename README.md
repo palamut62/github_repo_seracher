@@ -2,7 +2,7 @@
 
 GitHub Repo Searcher, GitHub depolarını aramak ve keşfetmek için geliştirilmiş modern bir web uygulamasıdır. React, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir.
 
-![GitHub Repo Searcher Arayüzü](./screenshots/app-screenshot.png)
+![GitHub Repo Searcher Arayüzü](./app-screenshot.png)
 
 ## 🚀 Özellikler
 
