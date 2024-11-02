@@ -122,7 +122,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ## 📧 İletişim
 
-Ad Soyad - [@twitterhandle](https://twitter.com/twitterhandle) - email@example.com
+Ad Soyad - [email@example.com](https://x.com/palamut62)
 
 Proje Linki: [https://github.com/palamut62/github-repo-searcher](https://github.com/palamut62/github-repo-searcher)
 
