@@ -1,21 +1,15 @@
 # GitHub Repo Searcher
-
-GitHub Repo Searcher, GitHub depolarını aramak ve keşfetmek için geliştirilmiş modern bir web uygulamasıdır. React, TypeScript ve Tailwind CSS kullanılarak geliştirilmiştir.
-
-![GitHub Repo Searcher Arayüzü](./app-screenshot.png)
-
-## 🚀 Özellikler
-
-- 🔍 GitHub depolarında gerçek zamanlı arama
-- 🌓 Koyu/Açık tema desteği
-- 🔐 Firebase Authentication ile kullanıcı yönetimi
-- 📱 Responsive tasarım
-- 🏷️ Kategori ve programlama dili bazlı filtreleme
-- ⭐ En popüler repoları görüntüleme
-- 🔄 Gerçek zamanlı güncellenen sonuçlar
-
-## 🛠️ Kullanılan Teknolojiler
-
+GitHub Repo Searcher is a modern web application developed for searching and exploring GitHub repositories. It is built using React, TypeScript, and Tailwind CSS.
+![GitHub Repo Searcher Interface](./app-screenshot.png)
+## 🚀 Features
+- 🔍 Real-time search in GitHub repositories
+- 🌓 Dark/Light theme support
+- 🔐 User management with Firebase Authentication
+- 📱 Responsive design
+- 🏷️ Filtering based on categories and programming languages
+- ⭐ View most popular repositories
+- 🔄 Real-time updated results
+## 🛠️ Technologies Used
 - React 18
 - TypeScript
 - Tailwind CSS
@@ -23,34 +17,27 @@ GitHub Repo Searcher, GitHub depolarını aramak ve keşfetmek için geliştiril
 - Vite
 - React Router
 - Lucide Icons
-
-## 📋 Önkoşullar
-
-- Node.js (v18 veya üzeri)
-- npm veya yarn
-- Firebase hesabı
-
-## ⚙️ Kurulum
-
-1. Repoyu klonlayın:
+## 📋 Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+- Firebase account
+## ⚙️ Installation
+1. Clone the repository:
 ```bash
-git clone https://github.com/kullaniciadi/github-repo-searcher.git
+git clone https://github.com/username/github-repo-searcher.git
 cd github-repo-searcher
 ```
-
-2. Bağımlılıkları yükleyin:
+2. Install dependencies:
 ```bash
 npm install
-# veya
+# or
 yarn install
 ```
-
-3. Firebase projenizi oluşturun:
-   - [Firebase Console](https://console.firebase.google.com)'a gidin
-   - Yeni bir proje oluşturun
-   - Authentication servisini etkinleştirin ve Email/Password ve Google sign-in metodlarını açın
-
-4. `.env` dosyası oluşturun:
+3. Create your Firebase project:
+   - Go to [Firebase Console](https://console.firebase.google.com)
+   - Create a new project
+   - Enable Authentication service and activate Email/Password and Google sign-in methods
+4. Create `.env` file:
 ```env
 VITE_FIREBASE_API_KEY=your-api-key
 VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
@@ -59,70 +46,52 @@ VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
 VITE_FIREBASE_APP_ID=your-app-id
 ```
-
-5. Geliştirme sunucusunu başlatın:
+5. Start the development server:
 ```bash
 npm run dev
-# veya
+# or
 yarn dev
 ```
-
-## 🚀 Dağıtım
-
-1. Projeyi derleyin:
+## 🚀 Deployment
+1. Build the project:
 ```bash
 npm run build
-# veya
+# or
 yarn build
 ```
-
-2. Firebase CLI'ı yükleyin ve giriş yapın:
+2. Install Firebase CLI and login:
 ```bash
 npm install -g firebase-tools
 firebase login
 ```
-
-3. Firebase projenizi başlatın:
+3. Initialize your Firebase project:
 ```bash
 firebase init
 ```
-
-4. Uygulamayı dağıtın:
+4. Deploy the application:
 ```bash
 npm run firebase
-# veya
+# or
 yarn firebase
 ```
-
-## 📝 Kullanım
-
-1. Uygulamaya giriş yapın veya kayıt olun
-2. Arama çubuğunu kullanarak GitHub depolarını arayın
-3. Kategorileri veya programlama dillerini kullanarak sonuçları filtreyin
-4. Depo detaylarını görüntülemek için kartlara tıklayın
-
-## 🤝 Katkıda Bulunma
-
-1. Bu repoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Bir Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
-
-## 👏 Teşekkürler
-
+## 📝 Usage
+1. Log in or sign up to the application
+2. Use the search bar to search GitHub repositories
+3. Filter results using categories or programming languages
+4. Click on cards to view repository details
+## 🤝 Contributing
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Create a Pull Request
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## 👏 Acknowledgments
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Firebase](https://firebase.google.com/)
 - [Lucide Icons](https://lucide.dev/)
-
-## 📧 İletişim
-
-Ad Soyad - [[palamut62](https://x.com/palamut62)](https://x.com/palamut62)
-
-Proje Linki: [https://github.com/palamut62/github-repo-searcher](https://github.com/palamut62/github-repo-searcher)
-
+## 📧 Contact
+Name Surname - [[palamut62](https://x.com/palamut62)](https://x.com/palamut62)
+Project Link: [https://github.com/palamut62/github-repo-searcher](https://github.com/palamut62/github-repo-searcher)
